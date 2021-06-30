@@ -6,6 +6,7 @@ const Header = () => {
     return(
         <div className={styles.header}>
             <Nav/>
+
         </div>
     )
 }
