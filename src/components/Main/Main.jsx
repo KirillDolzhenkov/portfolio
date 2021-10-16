@@ -2,13 +2,16 @@ import React from "react";
 import styles from "./Main.module.css"
 
 const Main = () => {
-    return(
+    return (
         <div className={styles.mainBlock}>
-            <div className={styles.text}></div>
-                <span>Hi there</span>
-            <h1>I am Kirill</h1>
-            <p></p>
-            <div className={styles.photo}></div>
+            <div className={styles.container}>
+                <div className={styles.text}>
+                    <span>Hi there</span>
+                    <h1>I am Kirill Dolzhenkov</h1>
+                    <p>Frontend Developer</p>
+                </div>
+                <div className={styles.photo}></div>
+            </div>
         </div>
     )
 }
