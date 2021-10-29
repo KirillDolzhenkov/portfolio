@@ -15,7 +15,7 @@ const Main = () => {
                 <div className={style.photo}></div>
             </div>
         </div>
-)
+    )
 }
 export {
     Main
