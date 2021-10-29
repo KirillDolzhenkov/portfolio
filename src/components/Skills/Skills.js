@@ -10,8 +10,11 @@ const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
-                    <Skill/>
+                    <Skill title={"JS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit ut voluptatem."}/>
+                    <Skill title={"CSS"} description={"Dolorum esse eum fugiat hic id illum incidunt inventore laborum libero"}/>
+                    <Skill title={"React"} description={"maiores nesciunt non officia, porro, repellat sunt repellendus sed."}/>
                 </div>
+
             </div>
         </div>
     )
