@@ -1,11 +1,13 @@
 .skillsBlock {
     height: 100vh;
     background-color: lightgreen;
+    flex-direction: column;
 }
 
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 .title {
